@@ -1,9 +1,9 @@
 /* Overall Page */
 body {
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: rgba(255, 230, 240, 1); /* light pink */
-  color: rgba(50, 50, 50, 1);
+  font-family: Verdana, sans-serif;
+  background-color: rgba(199, 100, 10, 80); /* light pink */
+  color: #E0ffff;
 }
 
 .container {
@@ -14,7 +14,7 @@ body {
 
 /* Top Section */
 .top-section {
-  background-image: url('https://images.unsplash.com/photo-1555992336-03a23c8e3f3d'); /* Replace with your own image if needed */
+  background-image: url('https://media.istockphoto.com/id/1481647713/photo/outdoors-dinner-table-with-gorgeous-looking-barbecue-meat-fresh-vegetables-and-salads-happy.jpg?s=612x612&w=0&k=20&c=McIDlCYFCOA33TTMag2CmN1yAUlzL8FP5b6jmsMZrmY='); /* Replace with your own image if needed */
   background-size: cover;
   background-position: center;
   padding: 60px 20px;
@@ -24,8 +24,9 @@ body {
 .top-section h1 {
   font-size: 3rem;
   font-weight: bold;
-  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+  text-shadow: 3px 3px 6px rgba(1, 10, 20, 1.7);
   font-family: 'Impact', 'Arial Black', cursive;
+  margin-top: 2px;
 }
 
 /* Middle Section */
@@ -60,6 +61,7 @@ body {
   padding: 8px 0;
   font-size: 1.1rem;
   color: rgba(80, 20, 50, 1);
+  
 }
 
 /* Right Section */
@@ -85,6 +87,7 @@ body {
   text-decoration: none;
   color: rgba(255, 0, 102, 1);
   font-weight: bold;
+  font-style: italic;
   display: block;
   margin: 10px 0;
 }
