@@ -8,7 +8,7 @@
 body {
     font-family: "Tahoma", Geneva, Verdana, sans-serif;
     background-color: lightcyan;
-    color: #222;
+    color: gray;
 }
 
 /* Header */
@@ -19,9 +19,9 @@ header {
 
 header h1 {
     font-size: 3rem;
-    color: #ff5733; /* vibrant orange-red */
+    color: rgba(100, 34.1, 20); /* vibrant orange-red */
     margin-top: 10px;
-    text-shadow: 2px 2px #fff176;
+    text-shadow: 2px 2px rgba(100, 94.5, 46.3);
 }
 
 .bbq-image {
