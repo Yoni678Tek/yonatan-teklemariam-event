@@ -1,8 +1,11 @@
-
-
+/* Overall Page */
 body {
-  background-color: rgba(0, 255, 0, 0.2); /* light green */
-} 
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgba(255, 230, 240, 1); /* light pink */
+  color: rgba(50, 50, 50, 1);
+}
+
 .container {
   display: flex;
   flex-direction: column;
