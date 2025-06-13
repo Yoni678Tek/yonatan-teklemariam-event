@@ -1,0 +1,104 @@
+/* Reset and basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: lightcyan;
+    color: #222;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #ff5733; /* vibrant orange-red */
+    margin-top: 10px;
+    text-shadow: 2px 2px #fff176;
+}
+
+.bbq-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Layout Container */
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 10%;
+}
+
+/* Left Section */
+.left {
+    width: 45%;
+    background-color: #fce4ec; /* light pink */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.left h2 {
+    color: #e91e63;
+    margin-bottom: 10px;
+}
+
+.left ul li {
+    padding: 8px 0;
+    font-size: 1.1rem;
+}
+
+/* Right Section */
+.right {
+    width: 45%;
+    background-color: #e0f7fa; /* light teal */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.right h2 {
+    color: #00796b;
+    margin-bottom: 10px;
+}
+
+.right ul li {
+    padding: 8px 0;
+}
+
+.right a {
+    color: #0288d1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.right a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffecb3;
+    font-size: 1.2rem;
+}
+
+footer a {
+    color: #d84315;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
